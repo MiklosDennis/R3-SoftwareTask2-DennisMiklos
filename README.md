@@ -1,4 +1,4 @@
-How to run the code.
+How to run the code. Please view the README in raw format.
 
 First run output.py to startup server.
 Second run input.py to startup client.
