@@ -6,6 +6,9 @@ Second run input.py to startup client.
 The client has been designed to only read and send the joystick data
 2 Joysticks are required for the client side. A PS4 or PS5 controller works the best! 
 
+Left joystick controls forward/backward motion
+Right joystick controls rotate left and rotate right
+
 NOTE: Please have the controller plugged in prior to running the client side file.
 
 The server side will prind the wheel PWM values in the following order:
