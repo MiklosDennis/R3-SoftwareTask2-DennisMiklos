@@ -17,7 +17,7 @@ def decodeMovement(movement):
     for i in range(dim[0]):
         for j in range(dim[1]):
             if movement[i][j] < 0:
-                wheel = wheel + '[' + 'r' + str(movement[i][j]) + ']'
+                wheel = wheel + '[' + 'r' + str(-1*movement[i][j]) + ']'
             else:
                 wheel = wheel + '['+ 'f' + str(movement[i][j]) + ']'
     return wheel
